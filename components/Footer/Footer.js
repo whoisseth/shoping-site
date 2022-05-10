@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className=" bg-slate-700 justify-between text-white   px-16 py-6 flex ">
-      {Array.from(Array(5), (index) => index + 1).map(() => (
+      {Array.from(Array(3), (index) => index + 1).map(() => (
         <FooterSample />
       ))}
     </div>
